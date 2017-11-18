@@ -1,0 +1,76 @@
+
+html:lang(cs) #lang .cs, html:lang(en) #lang .en{font-weight:bold;}
+
+body{font-family: sans-serif;font-size:16pt;}
+
+h1,h2,h3{font-family: Amarante, cursive;}
+h1{font-size:30px;}
+h2{margin:50px 0 20px 0;font-size:25px}
+h3{font-size:20px}
+
+nav{display:none;}
+
+a{color:#666;}
+a:hover{color:#09f;text-decoration:underline;}
+
+p{text-align:justify;}
+
+#header{margin-top:10px;margin-bottom:10px;}
+
+#logo{padding:20px;}
+#logo img{height:80px;}
+
+#title{font-family: 'Amarante', cursive;margin-top:30px;text-align:center;}
+#title p{font-size:15px;text-align:center;}
+
+#lang{opacity:.5;font-size:.7em;margin-top:10px;}
+#lang:hover{opacity:1;}
+
+#content{padding:0px 0 50px 0;}
+
+#categories .category .image img{width:100%;border:2px solid #333;}
+#categories .category{margin-bottom:40px;}
+#categories h3{margin-top:20px;}
+
+
+@media (min-width: 370px) {
+  h1{font-size:40px;}
+  #title p{font-size:20px;}
+}
+
+@media (min-width: 576px) {
+  h1{font-size:50px;}
+  #title p{font-size:15px;}
+  #logo img{height:110px;}
+}
+
+@media (min-width: 768px) {
+  #page{padding:0 90px;}
+  #content{padding-top:30px !important;}
+  
+  h1{font-size:60px;}
+  h2{font-size:35px}
+  h3{font-size:25px}
+  #title p{font-size:30px;}
+  #logo img{height:150px;}
+  
+  #categories h3{margin-top:0;}
+}
+
+@media (min-width: 992px) {
+  h1{font-size:80px;}
+  h2{font-size:40px}
+  h3{font-size:30px}
+  #title p{font-size:40px;}
+  #logo img{height:170px;}
+  #categories .category{margin-bottom:80px;}
+}
+
+@media (min-width: 1200px) {
+  h1{font-size:100px;}
+  #title p{font-size:40px;}
+  #logo img{height:200px;}
+  
+}
+
+
