@@ -1,6 +1,7 @@
 ---
-layout: main
+title: Kontakt
 lang: cs
+layout: main
 ---
 
 <h2>Kontakt</h2>
