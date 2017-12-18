@@ -1,4 +1,5 @@
 ---
+title: Sklo
 layout: main
 lang: cs
 title: Sklo
