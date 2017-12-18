@@ -13,28 +13,21 @@
     <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
-    <div id="page" class="container">
+    <div id="page">
 
-      <div id="lang" class="text-right">
-        <a href="/" hreflang="cs" class="cs">česky</a> / <a href="/en" hreflang="en" class="en">english</a>
-      </div>
-
-      <div id="header" class="row">
-
-
-        <div id="logo" class="col-2 col-sm-2 col-md-3 text-center">
-          <a href="/"><img src="/assets/img/logo.svg"></a>
-        </div>
-
-        <div class="col-10 col-sm-10 col-md-9">
-          {% include header.{{ page.lang }}.html %}
-        </div>
-
+      <div id="header">
+        {% include header.html %}
       </div>
 
 
-      <div id="content">
+      <div id="content" class="container">
         {{ content }}
+      </div>
+
+      <div id="footer">
+        <div>
+          {% include footer.html %}
+        </div>
       </div>
 
     </div>

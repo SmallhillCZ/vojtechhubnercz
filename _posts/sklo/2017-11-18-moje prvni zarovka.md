@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Moje první žárovka"
-categories: glass
+categories: sklo
 image: /fotky/glass.png
 lang: cs
 ---

@@ -2,7 +2,7 @@
 layout: main
 lang: cs
 title: Sklo
-category: glass
+category: sklo
 ---
 
 <h2>Sklo</h2>
