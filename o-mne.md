@@ -1,6 +1,7 @@
 ---
-layout: main
+title: O mně
 lang: cs
+layout: main
 ---
 
 <h2>Vojtěch Hübner</h2>
