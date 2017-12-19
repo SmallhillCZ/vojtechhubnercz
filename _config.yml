@@ -23,4 +23,4 @@ theme: minima
 # Build settings
 markdown: kramdown
 plugins:
-- jekyll-redirect-from
+  - jekyll-relative-links
