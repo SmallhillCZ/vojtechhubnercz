@@ -18,4 +18,4 @@ url: http://pat.smallhill.cz
 theme: minima
 markdown: kramdown
 plugins:
-  - jekyll-relative-links
+- jekyll-relative-links
