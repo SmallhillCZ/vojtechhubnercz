@@ -4,8 +4,7 @@ lang: cs
 layout: main
 ---
 
-<h2>Kontakt</h2>
-<div id="contact">
-  <a href="mailto:pat@bosan.cz">pat@bosan.cz</a><br>
-  +420 609 112 567<br>
-</div>
+## Kontakt
+
+[pat@bosan.cz](mailto:pat@bosan.cz)
+\+420 609 112 567
