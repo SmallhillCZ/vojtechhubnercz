@@ -1,6 +1,7 @@
 ---
-layout: main
+title: Tvorba
 lang: cs
+layout: main
 ---
 
 <h2 class="hide">Tvorba</h2>
